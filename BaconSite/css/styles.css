@@ -1,12 +1,17 @@
 /************************TAG SELECTORS*************************/
 h1{
-  color: red;
+  color: red
+
 }
 
-/*img{
+img:hover{
+  background-color: gold;
+
+}
+img{
   background-color: green;
 }
-*/
+
 
 
 /************************CLASS SELECTORS***********************/
@@ -16,4 +21,15 @@ h1{
 
 .broccoli{
   background-color: red;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+/**********************ID SELECTORS*************************/
+
+
+#heading{
+  color: blue;
 }
